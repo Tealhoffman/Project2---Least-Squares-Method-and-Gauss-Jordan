@@ -1,0 +1,35 @@
+uhx02:/home/t/tealhoff% ./project_v03
+Enter the order of the polynomial to fit (integer from 1 to 4): 2
+
+please enter the file you want to read: final.txt
+
+
+Number of data points (N): 21
+
+Matrix A:
+ 21.0  126.0  1526.0
+ 126.0  1526.0  18396.0
+ 1526.0  18396.0  244202.0
+Matrix B:
+  0.0
+ -8315.3
+ -150887.0
+
+Augmented Matrix:
+  21.00  126.00  1526.00    0.00
+ 126.00  1526.00  18396.00  -8315.28
+ 1526.00  18396.00  244202.00  -150887.02
+
+The row reduced (RREF) augmented matrix is:
+   1.00    0.00   -0.00   66.31
+   0.00    1.00   -0.00   16.54
+   0.00    0.00    1.00   -2.28
+
+The best-fit least squares equation is:
+66.31325 * x^0 + 16.53798 * x^1 + -2.27809 * x^2
+
+Would you like to store your data in an output file? (y/n): y
+Enter the name of output file with saved results data:output_final_quadratic.csv
+Your results are written to 'output_final_quadratic.csv'.
+
+uhx02:/home/t/tealhoff%

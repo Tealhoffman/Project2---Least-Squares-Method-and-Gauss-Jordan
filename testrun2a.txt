@@ -1,0 +1,40 @@
+uhx02:/home/t/tealhoff% ./project_v03
+Enter the order of the polynomial to fit (integer from 1 to 4): 3
+
+please enter the file you want to read: test2.txt
+
+
+Number of data points (N): 41
+
+Matrix A:
+ 41.0  -0.0  229.6  -0.0
+ -0.0  229.6  -0.0  2312.5
+ 229.6  -0.0  2312.5   0.0
+ -0.0  2312.5   0.0  27706.3
+Matrix B:
+ 5083.7
+ -4505.3
+ 67776.3
+ -52882.1
+
+Augmented Matrix:
+  41.00   -0.00  229.60   -0.00  5083.70
+  -0.00  229.60   -0.00  2312.53  -4505.31
+ 229.60   -0.00  2312.53    0.00  67776.31
+  -0.00  2312.53    0.00  27706.34  -52882.12
+
+The row reduced (RREF) augmented matrix is:
+   1.00    0.00   -0.00   -0.00  -90.39
+  -0.00    1.00    0.00    0.00   -2.50
+  -0.00   -0.00    1.00    0.00   38.28
+   0.00    0.00   -0.00    1.00   -1.70
+
+The best-fit least squares equation is:
+-90.39075 * x^0 + -2.50005 * x^1 + 38.28274 * x^2 + -1.70000 * x^3
+
+Would you like to store your data in an output file? (y/n): out2a.csv
+*** Error, please enter 'y' or 'n': Would you like to store your data in an output file? (y/n): *** Error, please enter 'y' or 'n': Would you like to store your data in an output file? (y/n): *** Error, please enter 'y' or 'n': Would you like to store your data in an output file? (y/n): *** Error, please enter 'y' or 'n': Would you like to store your data in an output file? (y/n): *** Error, please enter 'y' or 'n': y
+Would you like to store your data in an output file? (y/n): y
+Enter the name of output file with saved results data:out2a.csv
+Your results are written to 'out2a.csv'.
+uhx02:/home/t/tealhoff%

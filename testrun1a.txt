@@ -1,0 +1,38 @@
+uhx02:/home/t/tealhoff% ./project_v03
+Enter the order of the polynomial to fit (integer from 1 to 4): 3
+
+please enter the file you want to read: test1.txt
+
+
+Number of data points (N): 6
+
+Matrix A:
+  6.0  -2.2  24.0  -8.0
+ -2.2  24.0  -8.0  180.0
+ 24.0  -8.0  180.0  -32.0
+ -8.0  180.0  -32.0  1524.0
+Matrix B:
+  2.4
+ -4.6
+ 11.8
+ -31.0
+
+Augmented Matrix:
+   6.00   -2.20   24.04   -8.01    2.40
+  -2.20   24.04   -8.01  180.00   -4.64
+  24.04   -8.01  180.00  -32.00   11.81
+  -8.01  180.00  -32.00  1524.00  -31.00
+
+The row reduced (RREF) augmented matrix is:
+   1.00    0.00    0.00    0.00    0.22
+   0.00    1.00   -0.00    0.00   -0.21
+  -0.00   -0.00    1.00    0.00    0.03
+  -0.00   -0.00    0.00    1.00    0.01
+
+The best-fit least squares equation is:
+0.21808 * x^0 + -0.21064 * x^1 + 0.02822 * x^2 + 0.00628 * x^3
+
+Would you like to store your data in an output file? (y/n): y
+Enter the name of output file with saved results data:out1.csv
+Your results are written to 'out1.csv'.
+uhx02:/home/t/tealhoff%

@@ -1,0 +1,20 @@
+Results Output File From Project 2 - EE160
+==========================================
+Input file read:        out1.csv
+Original data series (x,y) and generated fit are given below
+
+      x   ,     y   ,     ycalc
+     ===  ,    ===  ,     ======
+   -3.000 ,    0.900 ,    0.935
+   -2.000 ,    0.800 ,    0.702
+   -1.000 ,    0.400 ,    0.451
+   -0.200 ,    0.200 ,    0.261
+    1.000 ,    0.100 ,    0.042
+    3.000 ,    0.000 ,    0.010
+
+Polynomial order chosen for fit: 3
+
+The linear least-squares best fit to data is:
+y = 0.21808*x^0 + -0.21064*x^1 + 0.02822*x^2 + 0.00628*x^3
+
+End of output file.
